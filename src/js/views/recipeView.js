@@ -136,6 +136,10 @@ class RecipeView extends View {
       this._newServing = 0;
     });
   }
+
+  newFeatureAdd(msg = `Hello! world`) {
+    console.log(msg);
+  }
 }
 
 export default new RecipeView();

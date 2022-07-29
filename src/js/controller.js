@@ -147,6 +147,8 @@ const init = () => {
   BookmarksView.addHandlerBookmarksRender(controlLoad_dataStorage);
 
   UploadRecipeView._addHandler_data(controlUploadRecipe);
+
+  RecipeView.newFeatureAdd();
 };
 init();
 
