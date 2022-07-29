@@ -1,0 +1,29 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Recipe Application",
+  "default": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Watcharakorn Muangnoo",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.2",
+    "parcel": "^2.6.2"
+  },
+  "dependencies": {
+    "core-js": "^3.23.3",
+    "fractional": "^1.0.0",
+    "regenerator-runtime": "^0.13.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/philip1736812/recipe-found.git"
+  },
+  "bugs": {
+    "url": "https://gitlab.com/philip1736812/recipe-found/issues"
+  },
+  "homepage": "https://gitlab.com/philip1736812/recipe-found#readme"
+}
