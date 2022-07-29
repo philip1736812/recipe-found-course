@@ -140,7 +140,6 @@ class RecipeView extends View {
 
   newFeatureAdd(msg = `Hello! world`) {
     console.log(msg);
-    console.log(fracty(2.56321568));
   }
 }
 
